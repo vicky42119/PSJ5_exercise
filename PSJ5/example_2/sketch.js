@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(8);
   s1.update(mouseX, mouseY);
   s1.display(mouseX, mouseY);
   s2.update(s1.x, s1.y);
